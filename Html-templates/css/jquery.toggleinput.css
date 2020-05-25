@@ -1,0 +1,39 @@
+
+/* Btn group *****************************************************************************************************/
+
+.has-toggle-input label, .has-toggle-input.radio label {
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  margin: auto auto auto -1px;
+  background: #fff;
+  color: #1467b3;
+  border: 1px #1467b3 solid;
+  
+  line-height: normal;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+
+.pv {
+  width: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: -10px;
+}
+
+.has-toggle-input label.active {
+  background: #1467b3;
+  border-color: #1467b3;
+  color: white;
+  font-weight: bolder;
+}
+
+.has-toggle-input label:first-of-type { margin-left: auto; }
+
+.has-toggle-input label:last-of-type { }

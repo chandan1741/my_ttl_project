@@ -1,0 +1,351 @@
+body {
+    margin:0px;
+    padding:0px;
+	font-family: 'Roboto', sans-serif;
+	background:url(../images/bg.jpg) no-repeat center top #f8f8f8;
+	background-size:cover;
+	background-attachment:fixed;
+	width:100%;
+	height:100%;
+}
+
+.no-padding {
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+.no-margin {
+	margin-left:0px !important;
+	margin-left:0px !important;
+}
+
+#header {
+	background:#fff;
+	box-shadow:1px 3px 25px rgba(0, 0, 0, 0.4);
+	padding:20px;
+}
+
+.main_logo {
+	margin-left:12%;
+}
+
+.bt_section {
+	margin-top:60px;
+}
+
+.lft_logo {
+	background:url(../images/sh.png) no-repeat right center;
+	padding:70px 0px;
+}
+
+.rgt_bx {
+	padding-top:80px;
+}
+
+.link_bx {
+	text-align:center;
+	padding:20px 0px;
+	background:#fff;
+	border:solid 1px #1878c0;
+	box-shadow:1px 1px 18px rgba(0, 0, 0, 0.2);
+	margin-bottom:15px;
+	color:#3179bc;
+	text-transform:uppercase;
+	font-weight:500;
+	cursor:pointer;
+	margin-left:-10px;
+	margin-right:-10px;
+	border-radius:4px;
+	transition:0.2s;
+
+}
+
+.link_bx img {
+	margin-bottom:8px;
+	display:inline-block;
+}
+
+.link_bx:hover {
+	background: rgb(21,109,184);
+background: linear-gradient(360deg, rgba(21,109,184,1) 0%, rgba(0,212,255,1) 100%);
+color:#fff;
+margin-top:-5px;
+
+}
+
+.app-header-right{align-items:center;display:flex;margin-left:0px; font-size:28px; font-weight:500;}
+
+.sp-logo {
+	position:absolute;
+	right:10px;
+	top:2px;
+}
+
+.app-theme-white .app-footer .app-footer__inner, .app-theme-white .app-header {
+	background:#fff !important;
+}
+
+.fixed-header .app-header {
+	height:90px;
+}
+
+.logo-src {
+	background:url(../images/tata_it_logo.png) no-repeat left top !important;
+	background-size:203px 44px !important;
+	width:260px !important;
+	height:44px !important;
+}
+
+.app-header__logo {
+	width:300px !important;
+}
+
+.app-main .app-main__inner {
+	padding:60px 30px 30px 30px;
+}
+
+.closed-sidebar:not(.closed-sidebar-mobile) .app-header .app-header__logo {
+	width:80px !important;
+}
+
+.app-sidebar .app-sidebar__inner {
+    padding: 45px 1.5rem 1.5rem;
+	background:url(../images/blbg.jpg) repeat left top;
+	height:100%;
+}
+
+.vertical-nav-menu li a {
+	color:#fff;
+	font-size:15px;
+	font-weight:300;
+	border-radius:0px;
+	margin:6px 0px;
+	
+}
+
+.vertical-nav-menu li a.mm-active {
+	background:#0f4f8d;
+	color:#fff;
+	font-weight:300;
+	border-radius:0px;
+}
+
+.vertical-nav-menu li a:hover{
+	background:#0f4f8d;
+	color:#fff;
+	font-weight:300;
+	border-radius:0px;
+}
+
+.vertical-nav-menu li a {
+	padding:0px 15px;
+	text-indent:25px;
+}
+
+.vertical-nav-menu li a img {
+	
+}
+
+.vertical-nav-menu i.metismenu-state-icon, .vertical-nav-menu i.metismenu-icon {
+	opacity: .9; !important;
+	left:-10px;
+}
+
+.app-sidebar .app-sidebar__inner {
+	padding:45px 0px 0px;
+}
+
+.inner_card {
+	background:#fff;
+	padding:6px;
+	box-shadow:1px 1px 25px rgba(0, 0, 0, 0.2);
+	text-align:center;
+	font-size:20px;
+	color:#000;
+	border-radius:4px;
+	margin-bottom:18px;
+}
+
+.inner_card_icon {
+	
+	margin-top:45px;
+	margin-bottom:22px;
+}
+
+.inner_card span {
+	display:block;
+}
+
+.inner_card img {
+	max-width:100%;
+}
+
+.inner_card_count {
+	display:block;
+	font-size:45px;
+	font-weight:500;
+	margin-bottom:10px;
+}
+
+.login_bg {
+	background:#fff;
+}
+
+.login_main {
+	padding:30px;
+	text-align:center !important;
+}
+
+.login_logo {
+	display:inline-block;
+}
+
+.loginBx {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.login_lft {
+	background: #f4f6f8;
+	border-right: solid 1px #b5b5b5;
+	text-align: center;
+	padding: 70px 0px;
+	
+	
+}
+
+.login_lft img {
+	width: 50%;
+}
+
+.login_rgt {
+	text-align: left;
+	padding: 60px 45px 22px 30px;
+	font-size: 17px;
+	color: #646565;
+	
+}
+
+.login_rgt_title {
+	font-size: 25px;
+	color: #1667b3;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.log_input {
+	width: 100%;
+	font-size: 17px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 39px;
+	border: solid 1px #c2c2c2;
+	outline: none;
+	background: #fff;
+	margin-bottom: 17px;
+	border-radius: 5px;
+	color: #646565;
+}
+
+.user {
+background: url(../images/user.png) no-repeat 7px center;
+}
+
+.pass {
+	background: url(../images/pass.png) no-repeat 7px center;
+	}
+
+.f_pass {
+	font-size: 15px;
+	color: #646565;
+	text-decoration: none;
+	float: right;
+	margin-top: -10px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.l_bt {
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #fff;
+	background: #1667b3;
+	line-height: 44px;
+	height: 44px;
+	border-radius: 5px;
+	margin-top: 5px;
+	display: inline-block;
+	padding: 0px 28px;
+}
+
+.logout {
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1500;
+}
+
+@media only screen and (max-width: 600px) {
+	
+.t_logo {
+	display:none;
+}
+
+.main_logo {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+.bt_section {
+	margin-top:30px;
+}
+
+.lft_logo {
+	background:none;
+	padding:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+.lft_logo img {
+	width:60%;
+}
+
+.rgt_bx {
+	padding-top:30px;
+}
+
+.link_bx {
+	margin-left:0px;
+	margin-right:0px;
+	
+}
+
+.login_lft {
+	border-bottom: solid 1px #b5b5b5;
+	border-right: none;
+}
+
+.loginBx {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.app-header .app-header__mobile-menu {
+	order: 0;
+}
+
+}

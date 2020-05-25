@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    
+		<title>Manufacturing Insight</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/jquery.loading-indicator.js"></script>
+		
+		<link type="text/css" rel="stylesheet" href="css/jquery.loading-indicator.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+	</head>
+	<body>
+		<script>
+			$(function() {
+				var homeLoader = $('body').loadingIndicator({
+					useImage: false,
+				}).data("loadingIndicator");
+				
+				setTimeout(function() {
+					homeLoader.hide();
+				}, 2500);
+				
+			});
+		</script>
+
+        <div class="main">
+		<header id="header">
+        <img src="images/tata_it_logo.png" alt="Tata Motors" class="t_logo">
+        <img src="images/manufacturing_logo.jpg" alt="Manufacturing Insight" class="main_logo">
+        </header>
+        <div class="container bt_section">
+        <div class="row">
+        <div class="col-md-4 lft_logo"><img src="images/spaqplug_logo.png" alt="Spaqplug"></div>
+        <div class="col-md-8 rgt_bx">
+        <div class="row no-margin">
+        <div class="col-md-3">
+        <div class="link_bx safety" onclick="location.href='safety.html';">
+        <img src="images/ic_safety.png" width="55" height="55" class="blue" >
+        <img src="images/ic_safety_ov.png" width="55" height="55" class="white" style="display:none;">
+        <span style="display:block;">Safety</span></div>
+        </div>
+        <div class="col-md-3 ">
+        <div class="link_bx quality" onclick="location.href='quality.html';">
+        <img src="images/ic_quality.png" width="55" height="55" class="blue1" >
+        <img src="images/ic_quality_ov.png" width="55" height="55" class="white1" style="display:none;">
+        <span style="display:block;">Quality</span></div></div>
+        <div class="col-md-3">
+        <div class="link_bx productivity" onclick="location.href='productivity.html';">
+        <img src="images/ic_productivity.png" width="55" height="55" class="blue2" >
+        <img src="images/ic_productivity_ov.png" width="55" height="55" class="white2" style="display:none;">
+        <span style="display:block;">Productivity</span></div>
+        </div>
+        <div class="col-md-3">
+        <div class="link_bx delivery" onclick="location.href='delivery.html';">
+        <img src="images/ic_delivery.png" width="55" height="55" class="blue3" >
+        <img src="images/ic_delivery_ov.png" width="55" height="55" class="white3" style="display:none;">
+        <span style="display:block;">Delivery</span></div>
+        </div>
+        </div>
+        
+        <div class="row no-margin">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+        <div class="link_bx cost" onclick="location.href='cost.html';">
+        <img src="images/ic_cost.png" width="55" height="55" class="blue4" >
+        <img src="images/ic_cost_ov.png" width="55" height="55" class="white4" style="display:none;">
+        <span style="display:block;">Cost</span></div>
+        </div>
+        <div class="col-md-3">
+        <div class="link_bx morale" onclick="location.href='morale.html';">
+        <img src="images/ic_morale.png" width="55" height="55" class="blue5" >
+        <img src="images/ic_morale_ov.png" width="55" height="55" class="white5" style="display:none;">
+        <span style="display:block;">Morale</span></div>
+        </div>
+        <div class="col-md-3">
+        <div class="link_bx environment" onclick="location.href='environment.html';">
+        <img src="images/ic_environment.png" width="55" height="55" class="blue6" >
+        <img src="images/ic_environment_ov.png" width="55" height="55" class="white6" style="display:none;">
+        <span style="display:block;">Environment</span></div>
+        </div>
+        <div class="col-md-1"></div>
+        </div>
+        </div>
+        </div>
+        
+        </div>
+		</div>
+
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>	
+<script>
+$( ".safety" ).mouseover(function() {
+  $(".white").css("display", "inline-block");
+   $(".blue").css("display", "none");
+});
+
+$( ".safety" ).mouseout(function() {
+  $(".white").css("display", "none");
+   $(".blue").css("display", "inline-block");
+});
+
+$( ".quality" ).mouseover(function() {
+  $(".white1").css("display", "inline-block");
+   $(".blue1").css("display", "none");
+});
+
+$( ".quality" ).mouseout(function() {
+  $(".white1").css("display", "none");
+   $(".blue1").css("display", "inline-block");
+});
+
+$( ".productivity" ).mouseover(function() {
+  $(".white2").css("display", "inline-block");
+   $(".blue2").css("display", "none");
+});
+
+$( ".productivity" ).mouseout(function() {
+  $(".white2").css("display", "none");
+   $(".blue2").css("display", "inline-block");
+});
+
+$( ".delivery" ).mouseover(function() {
+  $(".white3").css("display", "inline-block");
+   $(".blue3").css("display", "none");
+});
+
+$( ".delivery" ).mouseout(function() {
+  $(".white3").css("display", "none");
+   $(".blue3").css("display", "inline-block");
+});
+
+$( ".cost" ).mouseover(function() {
+  $(".white4").css("display", "inline-block");
+   $(".blue4").css("display", "none");
+});
+
+$( ".cost" ).mouseout(function() {
+  $(".white4").css("display", "none");
+   $(".blue4").css("display", "inline-block");
+});
+
+$( ".morale" ).mouseover(function() {
+  $(".white5").css("display", "inline-block");
+   $(".blue5").css("display", "none");
+});
+
+$( ".morale" ).mouseout(function() {
+  $(".white5").css("display", "none");
+   $(".blue5").css("display", "inline-block");
+});
+$( ".environment" ).mouseover(function() {
+  $(".white6").css("display", "inline-block");
+   $(".blue6").css("display", "none");
+});
+
+$( ".environment" ).mouseout(function() {
+  $(".white6").css("display", "none");
+   $(".blue6").css("display", "inline-block");
+});
+</script>			
+	</body>
+</html>
