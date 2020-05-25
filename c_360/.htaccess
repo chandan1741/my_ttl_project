@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule .* https://%{HTTP:Host}%{REQUEST_URI} [L,R=permanent]
+RewriteCond $2 !^(index\.php|(.*)\.swf|forums|images|css|upload|jquery|js|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# directory browsing
+Options All -Indexes
+
+Header set Access-Control-Allow-Origin "*"
+
+
+
+ServerSignature Off

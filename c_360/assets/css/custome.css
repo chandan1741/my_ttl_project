@@ -1,0 +1,103 @@
+.gold_bg_intro{
+  	height: 345px;
+  }
+  .fonts{
+  	font-family: 'Orbitron', sans-serif; text-align: center;font-size: 23px;
+  }
+  .intended {
+  	height: 243px;
+  }
+  .intended1 {
+  	height: 196px;
+  }
+  .jc_service{
+  	height: 243px;
+  }
+  .revenue{
+  	height: 205px;
+  }
+@media only screen and (max-width: 812px) {
+  .f1{
+      font-size: 12px;
+  }
+  .intro{
+  	height: 114px;
+  }
+  .gold_bg_intro{
+  	height: 424px;
+  }
+  .col{
+  	width: 50%;
+  }
+  .square-box {
+    position: relative;
+    width: 29%;
+    overflow: hidden;
+    background: #6f0b0b;
+    margin-left: 222px;
+	}
+	.fonts{
+  	font-family: 'Orbitron', sans-serif; text-align: center;font-size: 14px;
+  }
+  .vl1 {
+  border-left: 0px solid #fff;
+  height: 0px;
+  }
+  .vl2 {
+  border-left: 0px solid #fff;
+  height: 0px;
+  }
+  .vl3 {
+  border-left: 0px solid #fff;
+  height: 0px;
+  }
+  .intended {
+  	height: 418px;
+  }
+  .jc_service {
+  	height: 409px;
+  }
+  .revenue{
+  	height: 810px;
+  }
+}
+
+@media only screen and (min-width : 321px) and (max-device-width : 480px){
+  .f1{
+      font-size: 12px;
+  }
+	.col{
+  	width: 91%;
+  }
+  .fonts{
+  	font-family: 'Orbitron', sans-serif; text-align: center;font-size: 14px;
+  }
+  h4 {font-size:0.7em;}
+  p { font-size:0.7em;}
+
+  .vl1 {
+  border-left: 0px solid #fff;
+  height: 0px;
+  }
+  .vl2 {
+  border-left: 0px solid #fff;
+  height: 0px;
+  }
+  .vl3 {
+  border-left: 0px solid #fff;
+  height: 0px;
+  }
+  .intended {
+  	height: 418px;
+  }
+  .revenue{
+  	height: 810px;
+  }
+
+  @media only screen and (min-width : 321px) and (max-device-width : 480px){
+    .f1{
+      font-size: 10px;
+  }
+  }
+
+}
